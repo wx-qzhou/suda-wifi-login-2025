@@ -23,4 +23,4 @@
 * 第三栏填写`config.json`所在目录的完整路径
 
 
-最后可以使用“pyinstaller -F -w -i app.ico .\SWDA_WIFI.py”  打包成.exe
+最后可以使用“pyinstaller -F .\login.py --add-data "config.json;." --hidden-import=socket --hidden-import=requests --hidden-import=json”  打包成.exe  记得将“config.json”和“.exe”放一起。
