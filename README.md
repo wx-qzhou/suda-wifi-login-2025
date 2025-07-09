@@ -21,3 +21,6 @@
 * 第一栏填写Python安装目录下的`pythonw.exe`的完整路径
 * 第二栏填写Python脚本路径
 * 第三栏填写`config.json`所在目录的完整路径
+
+
+最后可以使用“pyinstaller -F -w -i app.ico .\SWDA_WIFI.py”  打包成.exe
